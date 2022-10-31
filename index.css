@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#inputBox {
+  margin: 2px;
+  padding: 8px;
+}
+#addBtn {
+  padding: 10px;
+  width: 60px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+#addBtn:hover {
+  background-color: lightgreen;
+}
+
+.container {
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 1rem;
+  width: 100vw;
+}
+
+#inputBox {
+  border: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.inputContainer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#taskContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.task {
+  border: 2px solid green;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  padding: 0.7rem 2rem;
+  text-align: center;
+  width: 60%;
+  word-wrap: break-word;
+}
+
+.completed {
+  border-color: red;
+  opacity: 0.6;
+  text-decoration-line: line-through;
+}
+.heading {
+  height: auto;
+  text-align: center;
+  margin-bottom: 0;
+  background: #000;
+  color: white;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+#addBtn {
+  padding: 10px;
+  width: 60px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.btn-delete {
+  width: 5vh;
+  margin-right: 0;
+}
